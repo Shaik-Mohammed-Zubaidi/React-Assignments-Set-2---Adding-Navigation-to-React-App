@@ -21,7 +21,7 @@ class App extends Component {
                 </Switch>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
-                <LocationDisplay pathname={pathname}/>
+                <LocationDisplay/>
             </div>
         )
     }
