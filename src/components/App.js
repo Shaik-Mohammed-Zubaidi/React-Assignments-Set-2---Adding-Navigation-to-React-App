@@ -8,9 +8,6 @@ import About from "./About";
 import NoMatch from "./NoMatch";
 import LocationDisplay from "./LocationDisplay";
 import {Link} from "react-router-dom";
-import {useLocation} from "react-router-dom";
-
-const {pathname}= useLocation();
 
 class App extends Component {
     render() {
