@@ -1,9 +1,7 @@
 import React from 'react';
-import {useLocation} from "react-router-dom";
 
-export default function LocationDisplay() {
-    const {pathname}= useLocation();
-    console.log(pathname);
+export default function LocationDisplay(props) {
+    const {pathname}= props;
     return (
         <div data-testid="location-display">
             {pathname}
