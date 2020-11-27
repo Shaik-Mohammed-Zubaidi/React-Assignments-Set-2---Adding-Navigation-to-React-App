@@ -26,4 +26,5 @@ class App extends Component {
         )
     }
 }
-export {LocationDisplay, App};
+export {default as LocationDisplay} from './LocationDisplay';
+export default App;
